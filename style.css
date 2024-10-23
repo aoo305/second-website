@@ -1,0 +1,449 @@
+body{
+    margin: 0% 0%;
+    padding: 0%;
+}
+.toplayer{
+background-image: url("images.jpeg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+padding-bottom: 5%;
+}
+.top{
+    font-size: 3rem;
+    font-weight: 1000;
+    display: flex;
+    margin-left: 4%;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.mybutton{
+    border: none;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    padding: 10px 48px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   /* margin-left: 70%; */
+   height: 40px;
+}
+.build{
+    margin-left: 4%;
+    font-weight: 700; 
+    font-size: 30px;
+    font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif ;
+    margin-top: 5%;
+    width: 350px;
+}
+.definition{
+    margin: 2% 4%;
+    font-weight: 400px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 470px;
+}
+.button{
+    margin-left: 4%;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(248, 119, 147);
+    padding: 20px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium'; 
+    color: white;
+}
+.picture{
+    background-image: url("friends-season-6-poster.jpg");
+    height: 300px;
+    width: 600px;
+    border-radius: 10%;
+    float: right;
+    margin-top: 4%;
+}
+.grow_together_layer{
+display: flex;
+margin: 10% 10% 0% 10% ;
+border-color: rgba(216, 201, 196, 0.151);
+border-style: outset;
+border-radius: 25px;
+padding: 30px 30px 30px 50px ;
+}
+.grow{
+    margin-left: 10%;
+    font-weight: 700; 
+    font-size: x-large;
+    font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif ;
+    margin-top: 20%;
+    width: 300px;
+}
+.explanation{
+    margin: 2% 10%;
+    font-weight: 100;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    width: 470px;
+    color: rgb(170, 156, 134);
+
+}
+.picture1{
+    background-image: url("images\ \(1\).jpeg");
+    height: 300px;
+    width: 600px;
+    border-radius: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    margin-left: 310px;
+}
+.flowing_conversations_layer{
+    margin: 2% 10% 3% 10%;
+    border-color: rgba(216, 201, 196, 0.151);
+    border-style: outset;
+    border-radius: 25px;
+    display: flex;
+    padding: 30px 30px 30px 50px ;
+}
+.conversations{
+    font-weight: 700; 
+    font-size: 25px;
+    font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif ;
+    margin-top: 13%;
+    width: 300px;
+    margin-left: 36%;
+    text-align: left;
+}
+.explanation1{
+    font-weight: 100;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    width: 470px;
+    color: rgb(170, 156, 134);
+    margin-top: 2%;
+    margin-left:265px;
+}
+.picture2{
+    background-image: url("images\ \(2\).jpeg");
+    height: 300px;
+    width: 600px;
+    border-radius: 10%;
+    margin-left: 4%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+
+}
+.your_users_layer{
+    display: flex;
+    margin: 3% 10% 0% 10% ;
+    border-color: rgba(216, 201, 196, 0.151);
+    border-style: outset;
+    border-radius: 25px;
+    padding: 30px 30px 30px 50px ;
+}
+.users{
+    margin-left: 10%;
+    font-weight: 700; 
+    font-size: x-large;
+    font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif ;
+    margin-top: 20%;
+    width: 300px;  
+}
+.explanation2{
+    margin: 2% 10%;
+    font-weight: 100;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    width: 470px;
+    color: rgb(170, 156, 134);   
+}
+.picture3{
+    background-image: url("images\ \(3\).jpeg");
+    height: 300px;
+    width: 600px;
+    border-radius: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    margin-left: 310px;
+}
+.buttom {
+    height: 170px;
+    width: 700px;
+    border-radius: 25px;
+    border: 7px solid rgba(216, 201, 196, 0.151);
+    padding: 50px;
+    margin: auto;
+    margin-bottom: -100px;
+    position: relative;
+    background-color: white;
+    z-index: 10;
+    text-align: center;
+    margin-top: 10%;
+}
+#ready{
+    font-weight: 700; 
+    font-size: x-large;
+    font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif ;
+    margin: 4%;
+}
+#button1{
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(248, 119, 147);
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium'; 
+    width: 300px;
+    height: 55px;
+    color: white;
+}
+#footer{
+     background-color: rgb(41, 110, 101); 
+     padding: 150px 90px 30px 90px;
+}
+#last{
+    font-weight: 700; 
+    font-size: x-large;
+    font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif ;
+    color: white;
+    margin-bottom: 20px;
+}
+.address{
+   color: white;
+   display: flex;
+   margin-bottom: 10px;
+}
+p{
+    font-size: 13px;
+    font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif ;
+    width: 350px; 
+    color: white;
+    margin: 0px;
+    margin-left: 12px;
+}
+.phone{
+    color: white;
+    display: flex;
+    margin-bottom: 10px;
+}
+.mail{
+    color: white;
+    display: flex;
+    margin-bottom: 10px; 
+
+}
+a {
+    color: white;
+    font-size: 13px;
+    font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif ;
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+}
+a:hover{
+    text-decoration: underline;
+}
+#firstlink:hover{
+    text-decoration: underline;  
+}
+#firstlink{
+    color: white;
+    font-size: 13px;
+    font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif ;
+    text-decoration: none;
+    display: flex;
+    margin-top: -60px;
+}
+#facebook{
+display: inline;
+}
+#twitter{
+display: inline;
+}
+#instagram{
+display: inline;
+}
+#facebook:hover{
+    color: blueviolet;
+}
+#twitter:hover{
+    color: blueviolet;
+}
+#instagram:hover{
+    color: blueviolet;
+}
+.apps{
+  margin-top: -115px;
+}
+.footercontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright{
+    color: white;
+    font-size: 13px;
+    font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif ;
+    text-decoration: none;
+    float: right;
+}
+@media(max-width: 992px) {
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+    .picture{
+        display: none;
+    }
+    .picture2{
+        display: none;
+    }
+    .picture1{
+        display: none;
+    }
+    .picture3{
+        display: none;
+    }
+    .writings{
+        display: flex;
+        flex-direction: column;
+    }
+    .footercontainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .grow{
+        margin-left: 0;
+        font-weight: 700; 
+        font-size: x-large;
+        font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif ;
+        margin-top: 0;
+        width: 0;
+    }
+    .explanation{
+        margin: 0;
+        font-weight: 100;
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+        width: fit-content;
+        color: rgb(170, 156, 134);
+    }
+    .conversations{
+        margin-left: 0;
+        font-weight: 700; 
+        font-size: x-large;
+        font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif ;
+        margin-top: 0;
+        width: 0;
+    }
+    .explanation1{
+        margin: 0;
+        font-weight: 100;
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+        width: fit-content;
+        color: rgb(170, 156, 134);
+    }
+    .definition{
+        margin: 2% 4%;
+        font-weight: 400px;
+        font-size: 22px;
+        font-family: 'Times New Roman', Times, serif;
+        width: fit-content;
+    }
+    .users{
+        margin-left: 0;
+        font-weight: 700; 
+        font-size: x-large;
+        font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif ;
+        margin-top: 0;
+        width: 0;
+    }
+    .explanation2{
+        margin: 0;
+        font-weight: 100;
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+        width: fit-content;
+        color: rgb(170, 156, 134);
+    }
+    .buttom {
+        height: 170px;
+        width: fit-content;
+        border-radius: 25px;
+        border: 7px solid rgba(216, 201, 196, 0.151);
+        margin: auto;
+        margin-bottom: -100px;
+        position: relative;
+        background-color: white;
+        z-index: 10;
+        text-align: center;
+        margin-top: 10%;
+    }
+    #ready{
+        font-weight: 700; 
+        font-size: x-large;
+        font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif ;
+        margin: 0%;
+    }
+    #button1{
+        border-radius: 25px;
+        border: none;
+        background-color: rgb(248, 119, 147);
+        padding: 0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 700;
+        cursor: pointer;
+        font-family: 'Franklin Gothic Medium'; 
+        width: 200px;
+        height: 55px;
+        color: white;
+    }
+    .mail{
+        display: flex;
+        flex-direction: column; 
+    }
+    .phone{
+        display: flex;
+        flex-direction: column;
+    }
+    a{
+        display: flex;
+        flex-direction: column;
+    }
+    .apps{
+        margin-top: 0;
+    }
+    #firstlink{
+        color: white;
+        font-size: 13px;
+        font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif ;
+        text-decoration: none;
+        display: flex;
+        margin-top: 0;
+    }
+}
